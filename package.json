@@ -1,0 +1,22 @@
+{
+  "name": "@lucas11/luc-framework",
+  "version": "1.2.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": ".cli.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
