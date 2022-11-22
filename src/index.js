@@ -20,5 +20,9 @@ app.set("view engine", "ejs")
 app.use(express.static(join(__dirname, "public")))
 
 
-app.listen(3000)
-console.log("The Server is ready on port ", 3000)
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`The Server is ready on port http://localhost:${PORT}`)
+
+});
+
