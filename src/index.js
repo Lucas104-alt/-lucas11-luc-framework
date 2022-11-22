@@ -21,4 +21,4 @@ app.use(express.static(join(__dirname, "public")))
 
 
 app.listen(3000)
-console.log("The Server is ready on port http://localhost:3000/")
+console.log("The Server is ready on port ", 3000)
