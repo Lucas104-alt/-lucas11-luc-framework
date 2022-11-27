@@ -25,4 +25,5 @@ app.listen(PORT, () => {
     console.log(`The Server is ready on port http://localhost:${PORT}`)
 
 });
+console.log("Github: https://github.com/Lucas104-alt/lucas11-luc-framework")
 
